@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Confirmation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="box">
+<h2>Booking Successful ✅</h2>
+<p id="details"></p>
+<a href="index.html" class="btn">Go Home</a>
+</div>
+<script>
+document.getElementById("details").innerHTML = localStorage.getItem("booking");
+</script>
+</body>
+</html>
